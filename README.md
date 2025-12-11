@@ -10,7 +10,6 @@ Isi README ini
 - Struktur berkas penting
 - Cara menjalankan (dev)
 - Penjelasan implementasi singkat (model, service, UI)
-- Petunjuk screenshot untuk laporan praktikum
 - Jawaban singkat tugas laporan praktikum
 
 Persiapan & Dependensi
@@ -59,34 +58,8 @@ Implementasi singkat
 - Service: `ApiService` melakukan GET untuk daftar lokasi dan POST untuk menambah rekomendasi.
 - UI: `MapPage` mem-fetch data saat init, membangun `Marker` untuk setiap lokasi, menyediakan tombol `Rekomendasiin!` yang membuka pilihan (GPS / Pilih di Peta). Untuk input nama & deskripsi menggunakan Modal Bottom Sheet yang modern.
 
-Petunjuk menyiapkan screenshot penuh (untuk laporan)
---------------------------------------------------
-Saya tidak dapat membuat screenshot otomatis di lingkungan ini. Ikuti langkah ini untuk membuat screenshot yang diminta:
 
-1. Jalankan aplikasi (pada emulator Android atau mode web/Chrome):
-```powershell
-cd C:\flutter_maps
-flutter run -d chrome
-```
-
-2. Pastikan MockAPI Anda berisi beberapa rekomendasi di sekitar koordinat Kampus 4 Universitas Ahmad Dahlan. Anda dapat menambahkan data manual lewat MockAPI dashboard atau menggunakan fitur `Rekomendasiin!` pada aplikasi berkali-kali (pindahkan pin di peta) untuk mengisi peta.
-
-3. Setelah peta penuh (banyak marker terlihat), ambil screenshot:
-   - Jika menggunakan Chrome (web): tekan `Ctrl+Shift+I` → klik ikon perangkat (toggle device toolbar) jika perlu → tekan `Ctrl+Shift+P` lalu ketik `screenshot` → pilih `Capture full size screenshot` atau gunakan OS screenshot (`Win+Shift+S`) untuk area jendela.
-   - Jika menggunakan Android emulator: tekan `Ctrl+S` (Android Studio emulator) atau gunakan `adb`:
-     ```powershell
-     adb exec-out screencap -p > map_screenshot.png
-     ```
-
-4. Simpan file screenshot ke folder proyek, misalnya `assets/screenshots/map_filled.png`.
-5. Masukkan file ini ke laporan Anda. Contoh markdown untuk menyertakan screenshot di `README.md` atau laporan:
-```markdown
-![Peta penuh rekomendasi](assets/screenshots/map_filled.png)
-```
-
-Jika mau, saya bisa menambahkan contoh placeholder file `assets/screenshots/placeholder.png` dan contoh markdown; beri tahu saya dan saya buatkan file placeholder.
-
-Praktikum — Jawaban Laporan (Bahasa Indonesia)
+Praktikum
 ---------------------------------------------
 
 1) Mengapa kita harus menggunakan `double.tryParse` pada model data?
@@ -100,15 +73,7 @@ Keuntungan praktis:
 - Memudahkan debugging dan validasi data sebelum digunakan di UI (mis. mem-filter lokasi non-valid).
 - Memperkuat robustness aplikasi terhadap data dari luar yang tidak dapat dipercaya.
 
-2) Sertakan screenshot peta yang sudah penuh dengan rekomendasi tempat makan di sekitar Kampus 4 UAD
-
-- Saya tidak dapat membuat atau mengambil screenshot secara langsung di lingkungan ini. Silakan ikuti petunjuk pada bagian "Petunjuk menyiapkan screenshot" di atas untuk membuat screenshot sendiri.
-- Rekomendasi teknis untuk screenshot yang valid:
-  - Pastikan Anda mengisi MockAPI dengan data lokasi di sekitar Kampus 4 (koordinat lat/lon kampus ~ gunakan lat/lon sesungguhnya). Tambahkan 10–30 contoh lokasi untuk menunjukkan kepadatan.
-  - Gunakan zoom level yang menampilkan area kampus dan sekitarnya agar marker terlihat rapat.
-  - Beri nama file: `map_kampus4_filled.png` dan sisipkan pada laporan.
-
-3) Jelaskan alur data dari input pengguna hingga muncul di peta teman lain
+2) Jelaskan alur data dari input pengguna hingga muncul di peta teman lain
 
 Langkah-langkah alur data (end-to-end):
 
@@ -141,8 +106,6 @@ Tambahan / Saran perbaikan
 - Implementasikan clustering marker untuk menangani banyak marker agar peta tetap rapi.
 - Tambahkan caching lokal (sqflite / hive) agar marker tetap terlihat saat offline.
 - Ganti MockAPI ke server nyata atau gunakan Firebase untuk real-time.
-
-Jika Anda menginginkan file README lebih panjang (termasuk diagram alur, contoh JSON request/response, atau template laporan lengkap), beri tahu bagian mana yang mau saya perluas dan saya tambahkan.
 
 Diagram Alur (ASCII)
 ---------------------
