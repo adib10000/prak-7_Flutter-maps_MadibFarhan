@@ -1,20 +1,5 @@
 # Laporan Praktikum — Implementasi Fitur Peta Rekomendasi Kuliner
 
-> Template laporan praktikum untuk mata kuliah Pengembangan Aplikasi Bergerak
->
-> Isi laporan ini disusun agar mudah diisi: tinggal ganti placeholder dan tambahkan screenshot.
-
-## Informasi Umum
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM]
-- Program Studi : [Program Studi]
-- Mata Kuliah    : [Nama Mata Kuliah]
-- Dosen Pengampu : [Nama Dosen]
-- Tanggal Praktikum : [Tanggal]
-
-## Judul Praktikum
-Implementasi Peta Rekomendasi Kuliner — Penambahan Lokasi (GPS / Pilih di Peta)
-
 ## Tujuan
 - Mengimplementasikan integrasi peta (flutter_map + OpenStreetMap).
 - Menangani input lokasi dari pengguna (GPS atau titik peta).
@@ -33,19 +18,6 @@ Implementasi Peta Rekomendasi Kuliner — Penambahan Lokasi (GPS / Pilih di Peta
 4. Membuat `ApiService` untuk GET dan POST lokasi.
 5. Membuat `MapPage` — menampilkan peta, marker, flow tambah lokasi, bottom sheet input.
 
-## Hasil (Screenshot)
-Sertakan screenshot yang menunjukkan peta penuh dengan rekomendasi.
-
-- Nama file screenshot: `map_kampus4_filled.png`
-- Lokasi file: `assets/screenshots/map_kampus4_filled.png`
-
-Contoh penempatan gambar (Markdown):
-
-```markdown
-![Peta penuh - Kampus 4 UAD](assets/screenshots/map_kampus4_filled.png)
-```
-
-> Instruksi: Ambil screenshot dari aplikasi saat peta sudah berisi banyak marker (10-30 rekomendasi). Gunakan emulator atau mode web.
 
 ## Analisis
 1. Validasi dan parsing data
@@ -104,7 +76,3 @@ class LocationModel {
   "longitude": 112.752100
 }
 ```
-
----
-
-> Jika Anda ingin, saya bisa generate versi PDF dari laporan ini (butuh konfirmasi dan screenshot).
