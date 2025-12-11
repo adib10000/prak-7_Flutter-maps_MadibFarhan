@@ -1,0 +1,129 @@
+{
+  "campus": {
+    "name": "UAD Kampus 4",
+    "latitude": -7.83321,
+    "longitude": 110.38288
+  },
+  "nearby_restaurants": [
+    {
+      "name": "MJ Mie dan Rice Bowl",
+      "description": "Mie & rice-bowl murah di seberang kampus, cocok makan cepat mahasiswa",
+      "latitude": -7.83350,
+      "longitude": 110.38290
+    },
+    {
+      "name": "Sel Sel Cheesetea UAD 4",
+      "description": "Minuman boba / cheese-tea, cocok nongkrong santai",
+      "latitude": -7.83400,
+      "longitude": 110.38320
+    },
+    {
+      "name": "Dapoer Mejik",
+      "description": "Warung makan & minum, porsi dan harga bersahabat",
+      "latitude": -7.83380,
+      "longitude": 110.38350
+    },
+    {
+      "name": "Soto Laksa Wan-Wan",
+      "description": "Soto/laksa murah & mengenyangkan dekat kampus",
+      "latitude": -7.83420,
+      "longitude": 110.38410
+    },
+    {
+      "name": "Bakwan Koe Cai",
+      "description": "Camilan atau makan ringan — bakwan & gorengan dekat UAD 4",
+      "latitude": -7.83450,
+      "longitude": 110.38450
+    },
+    {
+      "name": "Boba Oy (Ki Ageng Pemanahan)",
+      "description": "Minuman boba/teh & tempat nongkrong santai",
+      "latitude": -7.83400,
+      "longitude": 110.38380
+    },
+    {
+      "name": "Roti Bakar Bringas",
+      "description": "Roti bakar & camilan, cocok untuk makan ringan atau sarapan",
+      "latitude": -7.83370,
+      "longitude": 110.38300
+    },
+    {
+      "name": "Lotek & Dawet Bu Yuli",
+      "description": "Menu tradisional sayur & dawet, alternatif makanan lokal",
+      "latitude": -7.83410,
+      "longitude": 110.38400
+    },
+    {
+      "name": "Nasi Bakar Wirosaban",
+      "description": "Nasi bakar & lauk — porsi cukup besar, cocok mahasiswa",
+      "latitude": -7.83430,
+      "longitude": 110.38390
+    },
+    {
+      "name": "Warung Bebakaran Bu Yuli",
+      "description": "Ayam/le-le bakar & nasi goreng — pilihan prasmanan sederhana dekat kampus",
+      "latitude": -7.83460,
+      "longitude": 110.38420
+    },
+    {
+      "name": "EsBelagak X BOBA & GrassJelly Pempek Cik Re Premium",
+      "description": "Minuman boba, dessert, dan pempek untuk camilan santai",
+      "latitude": -7.83410,
+      "longitude": 110.38370
+    },
+    {
+      "name": "Siomay Mirza",
+      "description": "Siomay murah dekat kampus, cocok untuk makan ringan",
+      "latitude": -7.83390,
+      "longitude": 110.38340
+    },
+    {
+      "name": "RM Salero Kito",
+      "description": "Masakan rumahan dan prasmanan murah meriah",
+      "latitude": -7.83360,
+      "longitude": 110.38320
+    },
+    {
+      "name": "Warung Jepun UAD",
+      "description": "Warung sederhana dengan lauk goreng dan seafood",
+      "latitude": -7.83420,
+      "longitude": 110.38410
+    },
+    {
+      "name": "Nata Juice Kampus 4 UAD",
+      "description": "Minuman jus segar dan smoothie dekat kampus",
+      "latitude": -7.83400,
+      "longitude": 110.38385
+    },
+    {
+      "name": "Rumah Makan Padang Tamanan",
+      "description": "Masakan Padang dengan porsi besar, cocok untuk makan kenyang",
+      "latitude": -7.83425,
+      "longitude": 110.38405
+    },
+    {
+      "name": "Mie Njeblug",
+      "description": "Bakmi pedas dan mie kuah/goreng, cocok makan malam",
+      "latitude": -7.83415,
+      "longitude": 110.38400
+    },
+    {
+      "name": "Warung Bebakaran Tronanggan",
+      "description": "Ayam/le-le goreng/bakar dan nasi goreng dekat kampus",
+      "latitude": -7.83395,
+      "longitude": 110.38375
+    },
+    {
+      "name": "Sunday Salad (Creamy Salad & Dessert)",
+      "description": "Salad sehat dan dessert creamy, cocok makan ringan",
+      "latitude": -7.83405,
+      "longitude": 110.38390
+    },
+    {
+      "name": "Rumah Ice",
+      "description": "Es campur, es buah dan minuman dingin, cocok siang hari",
+      "latitude": -7.83430,
+      "longitude": 110.38350
+    }
+  ]
+}
